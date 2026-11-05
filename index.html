@@ -1,5 +1,38 @@
 
 <!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Upload Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Photo Gallery</h1>
+
+        <div class="upload-box">
+            <h2>Upload Your Photo</h2>
+
+            <input type="file" id="photoInput" accept="image/*">
+
+            <img id="preview" alt="Photo Preview">
+
+            <button id="uploadBtn">Upload Photo</button>
+
+            <p id="message"></p>
+        </div>
+
+        <h2>Uploaded Photos</h2>
+        <div id="gallery" class="gallery"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
